@@ -1,0 +1,29 @@
+{
+  "name": "labs-1",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js",
+    "test": "tap test/**/*.test.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fastify": "^3.0.0",
+    "fastify-autoload": "^3.0.2",
+    "fastify-cli": "^2.2.0",
+    "fastify-plugin": "^2.0.0",
+    "fastify-sensible": "^3.0.1",
+    "nodemon": "^2.0.14"
+  },
+  "devDependencies": {
+    "tap": "^14.0.0"
+  }
+}
